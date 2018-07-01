@@ -1,0 +1,25 @@
+{
+  "name": "@dwdht/bootstrap",
+  "version": "0.1.1",
+  "description": "dWeb CLI For Launching DHT Bootstrap Nodes Via Command Line",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Bench Computer, Inc. <legal@benchx.io>"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "dbootstrap": "./index.js"
+  },
+  "dependencies": {
+    "@dwdht/rpc": "dwdht/rpc#master",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
+}
